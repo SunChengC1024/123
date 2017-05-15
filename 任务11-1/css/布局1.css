@@ -1,0 +1,26 @@
+.body{
+	width: 1326px;
+}
+.d1{
+	width: 800px;height: 280px;
+	background-color: #E6E6FA;
+	float: left;
+	margin: 10px;
+}
+.d2{
+	width: 400px;height: 280px;
+	background-color: #E6E6FA;
+	float: left;
+	margin: 10px;
+}
+.d11{
+	width: 380px;height: 120px;
+	background-color: #FFEFD5;
+	margin: 10px;
+	float: left;
+}
+.d21{
+	width: 380px;height: 80px;
+	background-color: #FFEFD5;
+	margin: 10px;
+}
