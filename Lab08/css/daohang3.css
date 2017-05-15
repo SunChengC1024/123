@@ -11,7 +11,7 @@ ul{
 }
 ul li{
 	float: left;
-	width: 6%;
+	margin-left: 1.8%;
 	display: inline;
 }
 #li{
