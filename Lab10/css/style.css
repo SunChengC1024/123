@@ -51,6 +51,7 @@ p{
 	color: white;
 	float: left;
 	margin-right: 0px;
+	text-align: center;
 }
 .nav_content a{
 	line-height: 40px;
@@ -227,20 +228,13 @@ p{
 	clear: both;
 	background-image: url(../images/foot.gif);
 }
+.footer div{
+	text-align: center;
+}
 .link{
-	margin-top: 50px;
+	margin-top: 40px;
 }
-.link ul{
-	list-style: none;
-}
-.link ul li{
-	float: left;
-	margin: 5px;
+.link a{
 	font-weight: bold;
-}
-.link ul li a{
-	font-weight: bold;
-}
-#link{
-	margin-left: 480px;
+	font-size: 1.1em;
 }
