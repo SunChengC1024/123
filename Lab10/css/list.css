@@ -21,14 +21,16 @@
 	margin: 10px 55px;
 	margin-bottom: 30px;
 }
+.content_left_top ul li{
+	width: 110px;
+}
 .content_left_top ul li a{
+	display: block;
 	line-height: 2.5em;
 	font-weight: bold;
 }
-.content_left_top ul li:hover{
-	background-image: url(../images/menubg.gif);
-}
 .content_left_top ul li a:hover{
+	background-image: url(../images/menubg.gif);
 	font-size: 1.1em;
 	color: #A52A2A;
 }
@@ -45,16 +47,17 @@
 .content_left_middle ul{
 	list-style: none;
 	margin-bottom: 30px;
-	margin-left: 10px;
+}
+.content_left_middle ul li{
+	width: 130px;
 }
 .content_left_middle ul li a{
+	display: block;
 	line-height: 2.5em;
 	font-weight: bold;
 }
-.content_left_middle ul li:hover{
-	background-image: url(../images/menubg.gif);
-}
 .content_left_middle ul li a:hover{
+	background-image: url(../images/menubg.gif);
 	font-size: 1.1em;
 	color: #A52A2A;
 }
@@ -71,13 +74,13 @@
 .qishi{
 	height: 40px;
 	border: 1px solid #c9baa5;
-	background-image: url(../images/bg.png);
+	background-image: url(../images/listtitle.png);
 	margin: 30px 0px;
 	margin-left: -1.5em;
 	
 }
-.qishi p{
-	text-align: left;
+.qishi div{
+	margin-left: 50px;
 	margin-top: 8px;
 	font-size: 1.7em;
 	font-weight: bold;

@@ -24,6 +24,7 @@ p{
 .header{
 	height:205px;
 	background-image: url(../images/bg.gif);
+	background-repeat: repeat-x;
 	background-position: 50% 0%;
 	margin: 0 auto;
 }
