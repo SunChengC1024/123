@@ -1,0 +1,23 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.image{
+	float: left;
+	margin: 4px;
+	border: 1px solid #bebebe;
+	text-align: center;
+}
+.image a img{
+	width: 220px;
+	height: 160px;
+	opacity: 0.5;
+}
+.image:hover{
+	border: 1px solid #6A5ACD;
+	color: #2E8B57;
+	background-color: #FFEFD5;
+}
+.image a img:hover{
+	opacity: 1;
+}
