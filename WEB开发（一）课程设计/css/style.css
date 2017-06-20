@@ -15,9 +15,16 @@ body{
 	margin: 0px auto;
 	height: 100px;
 }
+.nav{
+	width: 640px;
+	position: absolute;
+	top: 0px;
+	right: 10px;
+}
 #logo{
-	padding-top: 15px;
-	padding-left: 100px;
+	position: absolute;
+	top: 20px;
+	left: 110px;
 }
 .search{
 	height: 20px;
@@ -32,20 +39,20 @@ body{
 	color: #556B2F;
 	font-size: 1.2em;
 }
-#denglu{
+#kuang{
 	background-image: url(../images/annu.jpg);
 	background-color: #DCDCDC;
 	border: solid #556B2F 1px;
 	border-radius:2px;
 	color: white;
 }
-.nav{
-	width: 640px;
-	float: right;
+#denglu{
+	margin-top: 10px;
+	margin-left: 127px;
 }
 .daohang{
 	float: left;
-	margin-top: 35px;
+	margin-top: 45px;
 }
 .daohang a{
 	font-size: 1.3em;
@@ -59,7 +66,7 @@ body{
 
 .flowpicpure{
 	width: 1120px; height: 570px;
-	margin: 10px auto;
+	margin: 30px auto;
 	background-color: #F5F5DC; 
     border-radius:5px;
 }
@@ -98,6 +105,7 @@ height:550px;
 	border: 1px white solid;
     border-radius:5px;
     margin-top: 40px;
+    clear: both;
 }
 
 .list_picture{
@@ -191,7 +199,7 @@ height:550px;
 	width: 460px; height: 315px;
 	float: left;
 	margin: 18px;
-	background-color: #FFEBCD;
+	background-color: #F0F8FF;
 	border: solid 1px white;
 	border-radius: 5px;
 }
@@ -208,11 +216,9 @@ height:550px;
 	color: #556B2F;
 	font-size: 1.1em;
 }
-
 .footer_border{
-	height: 105px;
-	clear: both;
-	background-image: url(../images/foot.gif);
+	width: 1120px;
+	margin: 30px auto;
 }
 .footer_border div{
 	text-align: center;
